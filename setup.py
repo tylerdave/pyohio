@@ -17,8 +17,12 @@ with open(path.join(here, 'HISTORY.rst'), encoding='utf-8') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
 requirements = [
-    # TODO: put package requirements here
     'click',
+    'colorama',
+    'python-dateutil',
+    'requests',
+    'requests-cache',
+    'tabulate',
 ]
 
 test_requirements = [
