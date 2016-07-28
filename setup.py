@@ -37,7 +37,7 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     entry_points={
         'console_scripts':[
-            'pyohio=pyohio.cli:cli',
+            'pyohio=pyohio.cli:pyohio_cli',
             ],
         },
     include_package_data=True,
